@@ -6,5 +6,43 @@
 </head>
 <body>
 
+<h1 style="text-align:center; ">Calculatrice</h1>
+<br/>
+<br />
+<hr/>
+<form method="post" action="../FormulaireServlet">
+<div style="text-align:center; display:inline-block; ">
+&nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;
+  
+</div>
+
+<div style="text-align:center; display:inline-block;">
+
+<label>Opérande 1</label>
+<input type="number" step="0.01" name="op1">
+<br/>
+<label>Opérande 2</label>
+<input type="number" step="0.01" name="op2">
+
+</div>
+
+<br/>
+<div style="text-align:center;">
+<label>Opération :</label> &nbsp; &nbsp; 
+<input type="radio" name="r" value="add">addition
+&nbsp; &nbsp;
+<input type="radio" name="r" value="sous"> soustraction
+&nbsp; &nbsp;
+<input type="radio" name="r" value="mult"> multiplication
+&nbsp; &nbsp;
+<input type="radio" name="r" value="div"> division
+</div>
+<br/>
+<div style="text-align:center;">
+<input type="submit" value="Envoyer">
+<input type="reset" value="Retablir">
+
+</div>
+</form>
 </body>
 </html>
