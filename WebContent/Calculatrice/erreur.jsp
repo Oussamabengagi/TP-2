@@ -9,6 +9,7 @@
 <body>
 
 
-<h1>Erreur !! </h1>
+
+<h1>Erreur Les champs opérande 1 ou opérande 2 sont vides ou aucune opération n'est sélectionnée !! </h1>
 </body>
 </html>
