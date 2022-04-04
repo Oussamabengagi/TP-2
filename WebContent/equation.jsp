@@ -22,12 +22,10 @@ if(discriminant<0)
     out.println("<H1 style='background-color:red;'>Aucun résultat Réel </H1>");
 }
 else if (discriminant==0) {
-	 x1 = (-b+Math.sqrt(discriminant))/2.0/a;
-     x2 = (-b-Math.sqrt(discriminant))/2.0/a;
 	
-	out.println("Value of discriminant: " + discriminant + "<br/>");
-	out.println("Value of x1: " + x1 + "<br/>");
-	out.println("Value of x2: " + x2 + "<br/>");
+	
+	out.println("Value of discriminant: " + -b/2*a + "<br/>");
+	
 }
 else {
 	x1 = (-b+Math.sqrt(discriminant))/2.0/a;
