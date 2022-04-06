@@ -19,7 +19,7 @@
 if(discriminant<0)
 {
     
-    out.println("<H1 style='background-color:red;'>Aucun résultat Réel </H1>");
+    out.println("<H1 style='background-color:red;'>Pas de solution dans R  </H1>");
 }
 else if (discriminant==0) {
 	
@@ -28,8 +28,8 @@ else if (discriminant==0) {
 	
 }
 else {
-	x1 = (-b+Math.sqrt(discriminant))/2.0/a;
-    x2 = (-b-Math.sqrt(discriminant))/2.0/a;
+	x1 = (-b-Math.sqrt(discriminant))/2.0/a;
+    x2 = (-b+Math.sqrt(discriminant))/2.0/a;
     out.println("<ul style='background-color:green;'>");
     out.println("<li>valeur de discriminant: " + discriminant + "</li>");
     out.println("<li>valeur de x1: " + x1 + "</li>");

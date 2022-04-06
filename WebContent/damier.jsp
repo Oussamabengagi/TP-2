@@ -10,7 +10,9 @@
 <title>Insert title here</title>
 </head>
 <body>
+
 <table border="4" align="center">
+
 	<%for ( i = 1; i <= N; i++){ %>
 	<tr>
 	<%for (j =1; j<=N ; j++) { %>
@@ -19,13 +21,13 @@
          <td bgcolor="white">
          &nbsp; &nbsp; &nbsp;
          </td>
-         <td bgcolor="black">
+         <td bgcolor="blue">
          &nbsp; &nbsp; &nbsp; 
          </td>
          
          
          <% } else if(((j % 2) != 0 ) && (i%2 ) == 0 )  { %>
-         <td bgcolor="black">
+         <td bgcolor="blue">
          &nbsp; &nbsp; &nbsp; 
          </td>
          <td bgcolor="white">
@@ -34,8 +36,10 @@
          <%} %>
       <%}%>
       </tr>
-      <%} %>
+      <%}  %>
+      
       </table>
+      
 
 </body>
 </html>
