@@ -6,7 +6,7 @@
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
 </head>
-<body>
+<body >
 <% double discriminant; %>
 <% double a = Double.parseDouble(request.getParameter("a")); %>
 <% double b = Double.parseDouble(request.getParameter("b")); %>
@@ -20,6 +20,7 @@ if(discriminant<0)
 {
     
     out.println("<H1 style='background-color:red;'>Pas de solution dans R  </H1>");
+   
 }
 else if (discriminant==0) {
 	
