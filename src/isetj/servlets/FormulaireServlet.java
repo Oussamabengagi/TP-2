@@ -63,6 +63,7 @@ public class FormulaireServlet extends HttpServlet {
 		}
 		
 		//soustraction
+		
 		else if (request.getParameter("r").equals("sous")) {
 			
 			
