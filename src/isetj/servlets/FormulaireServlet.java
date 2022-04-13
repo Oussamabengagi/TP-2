@@ -47,6 +47,10 @@ public class FormulaireServlet extends HttpServlet {
 			RequestDispatcher disp = request.getRequestDispatcher("Calculatrice/erreur.jsp") ;
 			disp.forward(request, response) ;
 		}
+		else if ((Integer.parseInt(op2)==0) &&(request.getParameter("r").equals("div"))) {
+			RequestDispatcher disp = request.getRequestDispatcher("Calculatrice/erreur.jsp") ;
+			disp.forward(request, response) ;
+		}
 		
 		//addition
 		else if (request.getParameter("r").equals("add")) {
